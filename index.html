@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Anderson Family Dinner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Krub:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar">
+       <a href="#" class="logo-box">
+         <h1 class="logo-letter">Anderson Family Dinner</h1>
+       </a>
+    </nav>
+    <main class="main-section">
+      <!-- IMAGE GALLERY CONTAINER -->
+      <section class="group-container">
+        <div class="group-photos">
+        <!-- PHOTO SLIDE -->
+        <div class="slide fade">
+          <img src="img/Anderson_Fam_One.jpg" alt="Famiily Group Photo 1" class="group-photo-1" style='width: 100%'>
+        </div>
+        <div class="slide fade">
+          <img src="img/Anderson_Fam_Two.jpg" alt="Famiily Group Photo 2" class="group-photo-2" style='width: 100%'>
+        </div>
+        <div class="slide fade">
+          <img src="img/Anderson_Fam_Three.jpg" alt="Famiily Group Photo 3" class="group-photo-3" style='width: 100%'>
+        </div>
+        <div class="slide fade">
+          <img src="img/Anderson_Fam_Four.jpg" alt="Famiily Group Photo 4" class="group-photo-4" style='width: 100%'>
+        </div>
+        <div class="slide fade">
+          <img src="img/Anderson_Fam_Five.jpg" alt="Famiily Group Photo 5" class="group-photo-5" style='width: 100%'>
+        </div>
+        
+        <!-- ARROWS -->
+        <a class="prev" onclick="plusSlides(-1)" title="Previous">&#10094</a>
+        <a class="next" onclick="plusSlides(1)" title="Next">&#10095</a>
+
+        <!-- DOTS -->
+        <div class="dots-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+      </div>
+      </section>
+      
+      <section class="candid-container">
+        <div class="candid-photos">
+        <div class="candids candid-photo-1">A</div>
+        <div class="candids candid-photo-2">B</div>
+        <div class="candids candid-photo-3">C</div>
+        <div class="candids candid-photo-4">D</div>
+        <div class="candids candid-photo-5">E</div>
+        <div class="candids candid-photo-6">F</div>
+        <div class="candids candid-photo-7">G</div>
+        <div class="candids candid-photo-8">H</div>
+        <div class="candids candid-photo-9">I</div>
+        <div class="candids candid-photo-10">J</div>
+        <div class="candids candid-photo-11">K</div>
+      </div>
+      </section>
+      
+    </main>
+    <footer class="footer-section"></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
